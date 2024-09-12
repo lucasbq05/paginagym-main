@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vencimiento de Pago del Gimnasio</title>
+    <link rel="stylesheet" href="../CSS/vencimiento.css">
+</head>
+<body>
+
+  <header class="header">
+    <a href="#home" class="logo">Gimnasio
+        <span>Branco</span>
+        <i class='bx bx-menu' id="menu-icon"></i>
+    </a>
+    <nav class="navbar">
+        <a href="#home" class="active">inicio</a>
+        <a href="../HTML/inicio_sesion.html">iniciar sesion</a>
+        <a href="#services">Servicios</a>
+        <a href="#testimonials">tickets</a>
+        <a href="#contact">Contactos</a>
+        <a href="../HTML/vencimiento.html">vencimiento</a>
+    </nav>
+    </header>
+    
+        <div class="container">
+            <!-- Formulario para agregar un nuevo usuario -->
+            <div class="add-user-form">
+              <h1>Control de Pagos del Gimnasio</h1>
+                <h2>Agregar nuevo usuario</h2>
+                <label for="newUserName">Nombre del usuario:</label>
+                <input type="text" id="newUserName" placeholder="Nombre completo">
+                
+                <label for="newUserDate">Último pago:</label>
+                <input type="date" id="newUserDate">
+                
+                <button onclick="addUser()">Agregar Usuario</button>
+              </div>
+                <div id="users-info" class="users-info">
+                  <!-- Aquí se mostrará la información de los usuarios -->
+              </div>         
+        </div>
+    
+        <script src="../JS/vencimiento.js"></script>
+    </body>
+    </html>
+    
